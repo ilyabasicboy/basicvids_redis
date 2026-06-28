@@ -8,6 +8,7 @@ services:
     networks:
       - basicvids
     restart: unless-stopped
+    mem_limit: 256m
 
 networks:
   basicvids:
